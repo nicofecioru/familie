@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="familie.CtrFxml">
+   <children>
+      <TableView fx:id="table" prefHeight="356.0" prefWidth="388.0">
+        <columns>
+          <TableColumn fx:id="tip" prefWidth="153.0" text="Tip" />
+          <TableColumn fx:id="suma" prefWidth="59.0" text="Suma" />
+            <TableColumn fx:id="descriere" prefWidth="69.0" text="Descr" />
+            <TableColumn fx:id="membru" prefWidth="106.0" text="Efectuata De" />
+        </columns>
+      </TableView>
+      <Label fx:id="sum" layoutX="414.0" layoutY="38.0" prefHeight="21.0" prefWidth="73.0" text="Label" />
+      <TextField fx:id="descrNou" layoutX="18.0" layoutY="416.0" />
+      <TextField fx:id="sumaNoua" layoutX="18.0" layoutY="464.0" />
+      <ButtonBar layoutX="250.0" layoutY="476.0" prefHeight="40.0" prefWidth="200.0" />
+      <ChoiceBox fx:id="t" layoutX="18.0" layoutY="373.0" prefWidth="150.0" />
+      <Label layoutX="411.0" layoutY="4.0" text="SumaTotala" />
+      <Label layoutX="211.0" layoutY="378.0" text="Tip" />
+      <Label layoutX="211.0" layoutY="432.0" prefHeight="21.0" prefWidth="45.0" text="Descr" />
+      <Label layoutX="211.0" layoutY="475.0" text="Suma" />
+      <Button fx:id="generate" layoutX="256.0" layoutY="510.0" mnemonicParsing="false" onAction="#handleGenerate" text="Generate" />
+    <Button fx:id="add" layoutX="355.0" layoutY="510.0" minWidth="63.0" mnemonicParsing="false" onAction="#handleAdd" prefHeight="31.0" prefWidth="81.0" text="Add" />
+   </children>
+</AnchorPane>

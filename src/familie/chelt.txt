@@ -1,0 +1,17 @@
+1|Imbracaminte|10|jacheta|nico
+2|Imbracaminte|45|palton|nico
+3|Imbracaminte|8|bluza|nico
+4|Distractie|35|rochie andra|nico
+5|Hrana |17|ghimbir+ceai|nico
+6|Cosmetice|101|solutii lentile|nico
+7|Hrana |8|cocos + seminte|nico
+8|Cosmetice|52|oje + sampon uscat|nico
+9|Cosmetice|5|spuma de dus |nico
+10|Cosmetice|10|lapte de par balea|nico
+11|Cosmetice|42|ser bioderma|nico
+12|Cosmetice|17|vtamine par|nico
+13|cheltuieli|630|chirie|nico
+14|cheltuieli|225|gaz|nico
+15|cheltuieli|25|telekom|nico
+16|cheltuieli|28|curent|nico
+17|Distractie|30|ziua dianei|nico
